@@ -8,7 +8,7 @@
 <body>
     <h1>Cat Photo App</h1>
     <h2>Cat Photos</h2>
-    <p>See more  cat photos in <a href="">our gallery</a></p>
+    <p>See more  cat photos in <a href="#">our gallery</a></p>
     <img src="./img/cat1.jpeg" alt="catpic1">
     <section>
     <h2>Cat Lists</h2>
@@ -37,15 +37,19 @@
     </figure>
     <h2>Cat Form</h2>
     <form>
-        <fieldset>Is your cat an indoor cat or outdorr cat?</fieldset>
+        <fieldset>
+            <legend> your cat an indoor cat or outdorr cat?</legend>
         <label for="indoor">
         <input type="radio" name="indooroutdoor" id="indoor">Indoor</label>
         <label for="outdoor">
         <input type="radio" name="indooroutdoor" id="outdoor">Outdoor</label>
-        <fieldset>What's your cat's personality?</fieldset>
+         </fieldset>
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
             <label for="Loving"> <input type="checkbox" name="personality" id="Loving">Loving</label>
             <label for="Lazy"> <input type="checkbox" name="personality" id="outdoor">Lazy</label>
             <label for="Energetic"> <input type="checkbox" name="personality" id="outdoor">Energetic</label>
+        </fieldset>
             <input type="text" placeholder="cat Photo URL">
             <button type="submit">Submit</button>
     </form>
